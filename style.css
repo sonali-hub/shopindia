@@ -1,0 +1,157 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgba(209, 206, 206, 0.986);
+}
+a {
+  font-size: 20px;
+}
+h4 {
+  width: 100%;
+}
+.slide{
+	height: 500px;
+}
+
+.style :hover{
+	opacity: 0.8;
+}
+.col-md-8 {
+  border: 0px solid pink;
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer {
+  background-color: #041513;
+  color: white;
+}
+.whyus {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.footer {
+  background-color: #041513;
+  color: white;
+}
+.whyus {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+.about {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  /* background-color: #eae5e5; */
+}
+.footer {
+  font-family: "Poppins", sans-serif;
+}
+#c2 {
+  margin-top: 0%;
+}
+#c3 {
+  margin-top: 0%;
+}
+#c4 {
+  margin-top: 0%;
+}
+#header {
+  margin-top: 20px;
+  color: black;
+}
+.form-control {
+  font-family: fontAwesome;
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .row {
+    margin-top: 0;
+    padding: 5px;
+  }
+  .col-md-8 {
+    margin-top: 5px;
+    padding: 0px;
+  }
+  .col-md-4 {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #aa {
+    float: right;
+  }
+  #bb {
+    float: right;
+  }
+}
+a {
+  text-decoration: none;
+  color: #041513;
+}
+#footer {
+  background-color: DarkSlategrey;
+  font-family: "Poppins", sans-serif;
+}
+li {
+  text-align: left;
+}
+h5 {
+  text-align: left;
+  color: white;
+}
+h3 {
+  margin-top: 40px;
+  text-align: left;
+  color: white;
+}
+
+.container {
+  border: 0px solid black;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#header {
+  margin-top: 20px;
+  color: black;
+}
+.form-control {
+  font-family: fontAwesome;
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .row {
+    margin-top: 0;
+    padding: 5px;
+  }
+  .col-md-8 {
+    margin-top: 5px;
+    padding: 0px;
+  }
+  .col-md-4 {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #aa {
+    float: right;
+  }
+  #bb {
+    float: right;
+  }
+}
+a {
+  text-decoration: none;
+  color: #041513;
+}
+
+
+
+/*contact form*/

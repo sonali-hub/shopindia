@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  
+</head>
+<body>
+	
+<div class="contact-section">
+	<div class="contact-info">
+		<div><i class="fas fa-map-marker-alt"></i>Pune</div>				
+		<div><i class="fas fa-envelope"></i>shopindia@mail.com</div>
+		<div><i class="fas fa-phone"></i>+91 94*******9</div>
+	</div>
+	<div class="contact-form">
+		<h2>Contact Us</h2>
+		<form class="contacti" autocomplete="on" action="contact.php" method="post" enctype="multipart/form-data" required>
+			<input type="text" name="name" class="text-box" placeholder="Full Name" required>
+			<input type="email" name="email" class="text-box" placeholder="email" required><br>
+			<input type="tel" name="phone" class="text-box" pattern="^\d{10}$" placeholder="contact No." required>
+			
+			<!-- <select class="text-box" name="intrest" placeholder="Intrested for" >
+				<option>Intrested For</option>
+				<option value="Frontend Developer">Frontend Developer</option>
+				<option value="Backend Developer">Backend Developer</option>
+				<option value="Fullstack Development">Fullstack Development</option>
+				<option value="Digital Markating">Digital Markating</option>
+				<option value="Software Development">Software Development</option>
+				<option value="web Development">web Development</option>
+
+			</select>
+ 		 -->
+
+			<input type="file" name="file" class="text-box" placeholder="Upload File"><br>
+			<textarea name="comment" rows="5" placeholder="Any Comment" ></textarea>
+			<input type="submit"  name="submit" class="send-btn" value="submit">
+
+		</form>
+	</div>
+
+</div>
+
+</body>
+</html> 
